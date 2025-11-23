@@ -11,7 +11,7 @@ emitter.once("click", (arr: number[]) => {
 });
 
 setTimeout(() => {
-    console.log("Emitting click event after 2 secondsf.......");
+    console.log("Emittingg click event after 2 secondsf.......");
     emitter.emit("click", [1, 2, 3, 4, 5]);
 }, 2000);
 
